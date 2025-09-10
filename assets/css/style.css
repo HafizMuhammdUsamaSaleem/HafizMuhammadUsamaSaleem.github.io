@@ -2664,3 +2664,17 @@ p.form-message.error.form-message.error {
   object-fit: cover;  /* keeps proportions */
   border-radius: 8px;
 }
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff; /* LinkedIn blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
